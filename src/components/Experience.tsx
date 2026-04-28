@@ -5,7 +5,7 @@ const experiences = [
   {
     role: "Product Manager",
     company: "Tanserv Business Process",
-    period: "Mar 2025 – Present",
+    period: "Sep 2025 – Present",
     description: "Leading the development of Inebura, a next-generation Accounts Receivable automation platform, transforming it into a scalable multi-tenant SaaS product for enterprise clients.",
     achievements: [
       "Led the end-to-end product development of Inebura, building the platform from the ground up into a fully functional SaaS Accounts Receivable product.",
@@ -17,14 +17,23 @@ const experiences = [
       "Owned the entire product lifecycle, including product vision, roadmap planning, feature prioritization, and delivery execution.",
       "Authored PRDs, FRDs, and user stories, translating business needs into detailed technical specifications for engineering teams.",
       "Led Agile product development, managing sprint planning, backlog prioritization, and cross-functional collaboration.",
-      "Worked closely with engineering teams to deliver multiple production releases, ensuring stability and scalability.",
-      "Built data visualization dashboards using Power BI, enabling stakeholders and clients to track AR metrics and financial performance.",
-      "Collaborated with enterprise clients to gather product requirements and refine financial workflowsDefined and monitored product KPIs, using insights and user feedback to drive continuous product improvement.",
-      "Reduced churn rate by 25% through improved onboarding"
+      "Worked closely with engineering teams to deliver multiple production releases, ensuring stability and scalability."
     ]
   },
   {
-    role: "Technical Business Consultant/Business Ananlyst",
+    role: "Assitant Product Manager",
+    company: "Tanserv Business Process",
+    period: "Mar 2025 – Sep 2025",
+    description: "Oversaw product development and financial workflow optimization for Inebura, an Accounts Receivable automation platform.",
+    achievements: [
+      "Built data visualization dashboards using Power BI, enabling stakeholders and clients to track AR metrics and financial performance.",
+      "Collaborated with enterprise clients to gather product requirements and refine financial workflowsDefined and monitored product KPIs, using insights and user feedback to drive continuous product improvement.",
+      "Reduced churn rate by 25% through improved onboarding",
+      "Led successful product pivot based on user research"
+    ]
+  },
+  {
+    role: "Technical Business Consultant",
     company: "Unicommerce eSolutions Pvt Ltd",
     period: "Aug 2020 – Oct 2024",
     description: "Worked on Uniware, an enterprise eCommerce Order & Inventory Management SaaS platform, helping optimize operational workflows for large retail and marketplace clients.",
@@ -44,7 +53,7 @@ const experiences = [
     role: "Programmer Analyst",
     company: "Cognizant Technology Solutions",
     period: "Aug 2015 – Feb 2016",
-    description: "Delivered data-driven software solutions and automation tools using Python, SQL, and Excel to enhance operational efficiency, streamline processes, and enable informed business decision-making.",
+    description: "Analyzed product metrics and user behavior to drive data-informed decisions. Supported product managers with market research and competitive analysis.",
     achievements: [
       "Developed custom software solutions using Python, MySQL, and Oracle, improving client operational efficiency.",
       "Built automation scripts and analytical tools to streamline internal processes.",
@@ -70,7 +79,7 @@ const Experience = () => {
             {experiences.map((exp, index) => (
               <Card
                 key={index}
-                className="p-8 gradient-card neon-border shadow-card hover:shadow-neon transition-smooth animate-fade-in group hover:-translate-y-2"
+                className="p-8 gradient-card neon-border shadow-card hover:shadow-neon transition-smooth animate-fade-in"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="flex flex-col md:flex-row md:items-start gap-6">
@@ -80,7 +89,7 @@ const Experience = () => {
 
                   <div className="flex-1">
                     <div className="mb-4">
-                      <h3 className="text-2xl font-bold text-foreground mb-1 group-hover:bg-gradient-neon group-hover:bg-clip-text group-hover:text-transparent transition-smooth">
+                      <h3 className="text-2xl font-bold text-foreground mb-1">
                         {exp.role}
                       </h3>
                       <p className="text-neon-cyan font-semibold mb-1">

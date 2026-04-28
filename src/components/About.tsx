@@ -49,13 +49,13 @@ const About = () => {
             {values.map((value, index) => (
               <Card
                 key={index}
-                className="p-6 gradient-card neon-border shadow-card hover:shadow-neon transition-smooth animate-fade-in group hover:-translate-y-1"
+                className="p-6 gradient-card neon-border shadow-card hover:shadow-neon transition-smooth animate-fade-in hover:-translate-y-1"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="gradient-neon w-12 h-12 rounded-lg flex items-center justify-center mb-4 shadow-neon">
                   <value.icon className="text-white" size={24} />
                 </div>
-                <h3 className="text-xl font-semibold mb-2 text-card-foreground group-hover:bg-gradient-neon group-hover:bg-clip-text group-hover:text-transparent transition-smooth">
+                <h3 className="text-xl font-semibold mb-2 text-card-foreground">
                   {value.title}
                 </h3>
                 <p className="text-muted-foreground">
