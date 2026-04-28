@@ -55,7 +55,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="/Vishakha_Anand_Resume_2026.pdf"
+                href="./Vishakha_Anand_Resume_2026.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"

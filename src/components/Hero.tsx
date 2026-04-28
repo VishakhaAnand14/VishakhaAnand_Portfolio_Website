@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="flex flex-col items-center gap-6 mb-4">
             <div className="w-40 h-40 rounded-full bg-gradient-neon p-1 shadow-neon animate-fade-in">
               <img
-                src="/VishPhoto3.jpeg"
+                src="./VishPhoto3.jpeg"
                 alt="Vishakha Anand"
                 className="w-full h-full rounded-full object-cover"
               />
