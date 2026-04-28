@@ -56,10 +56,10 @@ const Skills = () => {
             {skillCategories.map((category, index) => (
               <Card
                 key={index}
-                className="p-6 gradient-card neon-border shadow-card hover:shadow-neon transition-smooth animate-fade-in"
+                className="p-6 gradient-card neon-border shadow-card hover:shadow-neon transition-smooth animate-fade-in group hover:-translate-y-2"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <h3 className="text-xl font-bold mb-4 text-foreground flex items-center gap-2">
+                <h3 className="text-xl font-bold mb-4 text-foreground flex items-center gap-2 group-hover:bg-gradient-neon group-hover:bg-clip-text group-hover:text-transparent transition-smooth">
                   <div className="w-2 h-2 rounded-full gradient-neon shadow-neon"></div>
                   {category.category}
                 </h3>
